@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="View\AlterarProdutoUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="View\EntradaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="View\CadastroProdutoUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="View\FormAjuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormControleDeEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormListaProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\PesquisarProdutoUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="View\FormRemoverProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\SaidaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
