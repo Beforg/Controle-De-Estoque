@@ -33,5 +33,12 @@ namespace Controle_de_Estoque.Utils
             textbox.Text = "";
             codigo.Text = "";
         }
+        public static void LimpaTextBoxCadastro(TextBox codigo, TextBox marca, TextBox modelo, TextBox descricao)
+        {
+            codigo.Text = "";
+            marca.Text = "";
+            modelo.Text = "";
+            descricao.Text = "";
+        }   
     }
 }

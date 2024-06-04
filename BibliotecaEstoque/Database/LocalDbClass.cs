@@ -17,8 +17,8 @@ namespace BibliotecaEstoque.Database
         public LocalDbClass() {
             try 
             {
-               
-                //connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={caminhoDoDb};Integrated Security=True";
+
+                //connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename{databasePath};Integrated Security=True";
                 string databasePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "database.mdf");
                 connection = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={databasePath};Integrated Security=True";
 

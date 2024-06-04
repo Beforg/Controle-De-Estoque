@@ -12,3 +12,4 @@ C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEst
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.csproj.AssemblyReference.cache
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\Database\database.mdf
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\Database\database_log.ldf
+C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.sourcelink.json

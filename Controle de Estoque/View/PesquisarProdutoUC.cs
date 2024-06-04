@@ -8,8 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BibliotecaEstoque;
 using Controle_de_Estoque.Utils;
+using BibliotecaEstoque.Model;
 
 namespace Controle_de_Estoque.View
 {
@@ -61,6 +61,13 @@ namespace Controle_de_Estoque.View
             {
                 button1_Click(sender, e);
             }
+        }
+
+        private void btLimpar_Click(object sender, EventArgs e)
+        {
+            CarregaDadosPesquisa.LimpaLabel(labelMarca, labelModelo, labelQtd, labelDescricao);
+            tbCodigo.Text = "";
+            tbCodigo.Focus();
         }
     }
 }

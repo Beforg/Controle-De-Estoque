@@ -106,7 +106,7 @@ namespace Controle_de_Estoque
 
         private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("versão 1.0.0 \n 2024 Bruno Forgiarini \n github/Beforg \n MS Visual Studio 2022", "Sobre", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("versão 1.0.1 \n 2024 Bruno Forgiarini \n github/Beforg \n MS Visual Studio 2022", "Sobre", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void removerProdutoToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -118,7 +118,13 @@ namespace Controle_de_Estoque
         private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form formAjuda = new FormAjuda();
-            formAjuda.ShowDialog(); 
+            formAjuda.ShowDialog();
+        }
+
+        private void relatórioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormRelatorio formRelatorio = new FormRelatorio();
+            formRelatorio.ShowDialog();
         }
     }
 }

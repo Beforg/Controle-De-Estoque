@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             groupBoxCadastroProduto = new GroupBox();
+            btCancelar = new Button();
             tbQuantidade = new TextBox();
             cbQuantidade = new CheckBox();
             button2 = new Button();
@@ -45,6 +46,7 @@
             // 
             // groupBoxCadastroProduto
             // 
+            groupBoxCadastroProduto.Controls.Add(btCancelar);
             groupBoxCadastroProduto.Controls.Add(tbQuantidade);
             groupBoxCadastroProduto.Controls.Add(cbQuantidade);
             groupBoxCadastroProduto.Controls.Add(button2);
@@ -64,6 +66,17 @@
             groupBoxCadastroProduto.TabStop = false;
             groupBoxCadastroProduto.Text = "Cadastro de Produtos";
             groupBoxCadastroProduto.Enter += groupBoxCadastroProduto_Enter;
+            // 
+            // btCancelar
+            // 
+            btCancelar.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btCancelar.Location = new Point(386, 413);
+            btCancelar.Name = "btCancelar";
+            btCancelar.Size = new Size(117, 30);
+            btCancelar.TabIndex = 12;
+            btCancelar.Text = "Cancelar";
+            btCancelar.UseVisualStyleBackColor = true;
+            btCancelar.Click += btCancelar_Click;
             // 
             // tbQuantidade
             // 
@@ -203,5 +216,6 @@
         private Button button2;
         private TextBox tbQuantidade;
         private CheckBox cbQuantidade;
+        private Button btCancelar;
     }
 }

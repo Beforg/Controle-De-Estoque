@@ -28,6 +28,11 @@ namespace Controle_de_Estoque.Utils.Validation
 
         public static bool ValidaCampoEntradaSaida(TextBox textBox) 
         {
+            if (textBox.Text == "") 
+            {
+                MessageBox.Show("Digite um valor para entrada/saída", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             int valorConvertido = Convert.ToInt32(textBox.Text);
             if (textBox.Text == "" || valorConvertido < 0)
             {

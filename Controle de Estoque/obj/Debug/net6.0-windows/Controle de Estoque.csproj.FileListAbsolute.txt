@@ -59,3 +59,5 @@ C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\Controle de E
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\Controle de Estoque\obj\Debug\net6.0-windows\Controle_de_Estoque.View.FormAjuda.resources
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\Controle de Estoque\bin\Debug\net6.0-windows\Database\database.mdf
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\Controle de Estoque\bin\Debug\net6.0-windows\Database\database_log.ldf
+C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\Controle de Estoque\obj\Debug\net6.0-windows\Controle de Estoque.sourcelink.json
+C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\Controle de Estoque\obj\Debug\net6.0-windows\Controle_de_Estoque.View.FormRelatorio.resources

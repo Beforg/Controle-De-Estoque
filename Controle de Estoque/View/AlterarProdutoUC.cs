@@ -9,8 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BibliotecaEstoque;
 using Controle_de_Estoque.Utils;
+using BibliotecaEstoque.Model;
 
 namespace Controle_de_Estoque.View
 {
@@ -92,6 +92,7 @@ namespace Controle_de_Estoque.View
             HabilitaTextBox.HabilitarTextBox(tbCodigo, tbMarca, tbModelo, tbDescricao, false);
             HabilitaTextBox.LimparTextBox(tbCodigo, tbMarca, tbModelo, tbDescricao);
             HabilitaButton.HabilitarButtonAlterarProduto(btSalvar, Cancelar, false);
+            tbCodigo.Focus();
         }
 
         private void AlterarProdutoUC_KeyPress(object sender, KeyPressEventArgs e)
