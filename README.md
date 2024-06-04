@@ -38,6 +38,8 @@ Podemos buscar no sistema todos os produtos cadastrados, apresentando as informa
 
 Podemos editar qualquer produto, trocando a Marca, Modelo ou Descrição, a Quantidade pode ser arrumada na aba de *Controle* dando **Entrada ou Saída** de produtos.
 
+#### Atualizações v1.0.1: adicionando relatório de entrada e saída dos produtos.
+
 ![](https://github.com/Beforg/assets/blob/main/cde-csharp/editar.png?raw=true)
 
 ### Remover Produtos:
