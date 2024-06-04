@@ -1,5 +1,4 @@
 ﻿using BibliotecaEstoque.Database;
-using BibliotecaEstoque;
 using Controle_de_Estoque.Utils.Validation;
 using Controle_de_Estoque.Utils;
 using System;
@@ -11,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Controle_de_Estoque.Model;
+using BibliotecaEstoque.Model;
 
 namespace Controle_de_Estoque.View
 {
@@ -64,6 +65,7 @@ namespace Controle_de_Estoque.View
             HabilitaTextBox.LimpaTextBoxControle(tbEntrada, tbCodigo);
             HabilitaTextBox.HabilitaTextBoxControle(tbEntrada, tbCodigo, false);
             CarregaDadosPesquisa.LimpaLabel(labelMarca, labelModelo, labelQtd, labelDescricao);
+            tbCodigo.Focus();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -82,7 +84,9 @@ namespace Controle_de_Estoque.View
                 DialogResult dialogResult = MessageBox.Show("Deseja realmente dar entrada no produto? \n A nova quantidade será de " + quantidadeTotalNova.ToString(), "Entrada", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dialogResult == DialogResult.Yes)
                 {
+                    ProdutoDB dbRel = new ProdutoDB();
                     string mensagem = db.EntrarProduto(produto, qtdEntrada);
+                    dbRel.AdicionarNoRelatorio(produto.Codigo, qtdEntrada, DateTime.Now, TipoOperacao.Entrada.ToString());
                     MessageBox.Show(mensagem, "Operação", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     HabilitaTextBox.LimpaTextBoxControle(tbEntrada, tbCodigo);
                     HabilitaTextBox.HabilitaTextBoxControle(tbEntrada, tbCodigo, false);

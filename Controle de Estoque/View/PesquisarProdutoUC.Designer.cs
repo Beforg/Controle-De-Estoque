@@ -43,6 +43,7 @@
             labelQtd = new Label();
             label9 = new Label();
             groupBox2 = new GroupBox();
+            btLimpar = new Button();
             groupBox1.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -200,6 +201,7 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(btLimpar);
             groupBox2.Controls.Add(labelQtd);
             groupBox2.Controls.Add(label9);
             groupBox2.Controls.Add(label2);
@@ -214,6 +216,16 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Produto";
+            // 
+            // btLimpar
+            // 
+            btLimpar.Location = new Point(509, 220);
+            btLimpar.Name = "btLimpar";
+            btLimpar.Size = new Size(112, 27);
+            btLimpar.TabIndex = 2;
+            btLimpar.Text = "Limpar";
+            btLimpar.UseVisualStyleBackColor = true;
+            btLimpar.Click += btLimpar_Click;
             // 
             // PesquisarProdutoUC
             // 
@@ -249,5 +261,6 @@
         private GroupBox groupBox4;
         private Button button1;
         private Button button2;
+        private Button btLimpar;
     }
 }

@@ -6,6 +6,8 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using BibliotecaEstoque.Model;
+using Controle_de_Estoque.Model;
 
 namespace BibliotecaEstoque.Database
 {
@@ -158,6 +160,48 @@ namespace BibliotecaEstoque.Database
             }
 
             return mensagem;
+        }
+        public string AdicionarNoRelatorio(string codigo, int quantidade, DateTime date, string tipoOperacao) 
+        {
+
+            string SQL = $"INSERT INTO Relatorio (data, codigo_produto, tipo, quantidade) VALUES ('{date.ToString("yyyy-MM-dd")}','{codigo}','{tipoOperacao}', {quantidade})";
+            try
+            {
+               db.SQLCommand(SQL);
+                mensagem = "Comando executado.";
+            }
+            catch 
+            {
+                mensagem = "Erro ao adicionar no relatório";
+            }
+            return mensagem;
+        }
+        public List<Relatorio> BuscarRelatorio(DateTime data)
+        {
+            List<Relatorio> relatorios = new List<Relatorio>();
+            string SQL = $"SELECT * FROM Relatorio WHERE data = '{data.ToString("yyyy-MM-dd")}'";
+            try
+            {
+                DataTable dt = db.DataTable(SQL);
+                foreach (DataRow row in dt.Rows)
+                {
+                    Relatorio relatorio = new Relatorio
+                    {
+                        data = Convert.ToDateTime(row["data"]),
+                        codigo = Convert.ToString(row["codigo_produto"]),
+                        quantidade = Convert.ToInt32(row["quantidade"]),
+                        tipoOperacao = Convert.ToString(row["tipo"])
+                    };
+                    relatorios.Add(relatorio);
+                }
+                mensagem = "Busca realizada com sucesso";
+                
+            }
+            catch (Exception e)
+            {
+                mensagem = e.Message;
+            }
+            return relatorios;
         }
     }
 }

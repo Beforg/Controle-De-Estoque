@@ -28,7 +28,7 @@ namespace Controle_de_Estoque.View
             if (lvProdutos.SelectedItems.Count > 0)
             {
                 ListViewItem itemSelecionado = lvProdutos.SelectedItems[0];
-                string informacoes = "Código: " + itemSelecionado.SubItems[1].Text + " \n " + itemSelecionado.SubItems[2].Text + " \n " + itemSelecionado.SubItems[3].Text;
+                string informacoes = "Código: " + itemSelecionado.SubItems[1].Text + " \n " + itemSelecionado.SubItems[2].Text + " \n " + itemSelecionado.SubItems[4].Text;
                 MessageBox.Show(informacoes, "Informações do Produto", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }

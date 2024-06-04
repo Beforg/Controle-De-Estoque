@@ -48,6 +48,7 @@
             saídaToolStripMenuItem = new ToolStripMenuItem();
             tabControlEstoque = new TabControl();
             listaDeImagens = new ImageList(components);
+            relatórioToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -71,7 +72,7 @@
             // 
             ajudaToolStripMenuItem.Image = Properties.Resources.ajuda;
             ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
-            ajudaToolStripMenuItem.Size = new Size(180, 22);
+            ajudaToolStripMenuItem.Size = new Size(105, 22);
             ajudaToolStripMenuItem.Text = "Ajuda";
             ajudaToolStripMenuItem.Click += ajudaToolStripMenuItem_Click;
             // 
@@ -79,7 +80,7 @@
             // 
             sobreToolStripMenuItem.Image = Properties.Resources.sobre;
             sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            sobreToolStripMenuItem.Size = new Size(180, 22);
+            sobreToolStripMenuItem.Size = new Size(105, 22);
             sobreToolStripMenuItem.Text = "Sobre";
             sobreToolStripMenuItem.Click += sobreToolStripMenuItem_Click;
             // 
@@ -87,7 +88,7 @@
             // 
             sairToolStripMenuItem.Image = Properties.Resources.sair;
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(180, 22);
+            sairToolStripMenuItem.Size = new Size(105, 22);
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
@@ -153,7 +154,7 @@
             // 
             // gerenciamentoToolStripMenuItem
             // 
-            gerenciamentoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { entradaToolStripMenuItem, saídaToolStripMenuItem });
+            gerenciamentoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { entradaToolStripMenuItem, saídaToolStripMenuItem, relatórioToolStripMenuItem });
             gerenciamentoToolStripMenuItem.Name = "gerenciamentoToolStripMenuItem";
             gerenciamentoToolStripMenuItem.Size = new Size(65, 20);
             gerenciamentoToolStripMenuItem.Text = "Controle";
@@ -199,6 +200,14 @@
             listaDeImagens.Images.SetKeyName(5, "pesquisa.png");
             listaDeImagens.Images.SetKeyName(6, "cadastrar.png");
             // 
+            // relatórioToolStripMenuItem
+            // 
+            relatórioToolStripMenuItem.Image = Properties.Resources.relatorio;
+            relatórioToolStripMenuItem.Name = "relatórioToolStripMenuItem";
+            relatórioToolStripMenuItem.Size = new Size(180, 22);
+            relatórioToolStripMenuItem.Text = "Relatório";
+            relatórioToolStripMenuItem.Click += relatórioToolStripMenuItem_Click;
+            // 
             // FormControleDeEstoque
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -239,5 +248,6 @@
         private ToolStripMenuItem ajudaToolStripMenuItem;
         private ToolStripSeparator removerProdutoToolStripMenuItem;
         private ToolStripMenuItem removerProdutoToolStripMenuItem1;
+        private ToolStripMenuItem relatórioToolStripMenuItem;
     }
 }

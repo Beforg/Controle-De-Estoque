@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BibliotecaEstoque.Database;
+using Controle_de_Estoque.Utils;
 
 namespace Controle_de_Estoque.View
 {
@@ -88,6 +89,12 @@ namespace Controle_de_Estoque.View
             {
                 e.Handled = true;
             }
+        }
+
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            HabilitaTextBox.LimpaTextBoxCadastro(tbCodigo, tbMarca, tbModelo, tbDescricao);
+            tbCodigo.Focus();
         }
     }
 }

@@ -10,6 +10,9 @@
     <Compile Update="View\CadastroProdutoUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="View\FormRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\FormAjuda.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,5 +1,4 @@
 ﻿using BibliotecaEstoque.Database;
-using BibliotecaEstoque;
 using Controle_de_Estoque.Utils.Validation;
 using System;
 using System.Collections.Generic;
@@ -11,6 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Controle_de_Estoque.Utils;
+using Controle_de_Estoque.Model;
+using BibliotecaEstoque.Model;
 
 namespace Controle_de_Estoque.View
 {
@@ -65,6 +66,7 @@ namespace Controle_de_Estoque.View
             HabilitaTextBox.LimpaTextBoxControle(tbSaida, tbCodigo);
             HabilitaTextBox.HabilitaTextBoxControle(tbSaida, tbCodigo, false);
             CarregaDadosPesquisa.LimpaLabel(labelMarca, labelModelo, labelQtd, labelDescricao);
+            tbCodigo.Focus();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -88,10 +90,12 @@ namespace Controle_de_Estoque.View
                     int quantidadeTotalNova = produto.Quantidade - qtdSaida;
                     DialogResult dialogResult = MessageBox.Show("Deseja realmente dar saída no produto? \n A nova quantidade será de " + quantidadeTotalNova.ToString(), "Entrada", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (dialogResult == DialogResult.Yes)
-                    {
+                    {   
+                        ProdutoDB dbRel = new ProdutoDB();
                         int quantidadeRestante = produto.Quantidade - qtdSaida;
                         string mensagem = db.SaidaProduto(produto, qtdSaida);
                         MessageBox.Show(mensagem + "\n Nova quantidade em estoque:" + quantidadeRestante.ToString(), "Operação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        dbRel.AdicionarNoRelatorio(produto.Codigo, qtdSaida, DateTime.Now, TipoOperacao.Saida.ToString());
                         HabilitaTextBox.LimpaTextBoxControle(tbSaida, tbCodigo);
                         HabilitaTextBox.HabilitaTextBoxControle(tbSaida, tbCodigo, false);
                         CarregaDadosPesquisa.LimpaLabel(labelMarca, labelModelo, labelQtd, labelDescricao);
@@ -143,6 +147,11 @@ namespace Controle_de_Estoque.View
                 {
                     labelNovoEstoqueQtd.Text = resultado.ToString();
                     labelNovoEstoqueQtd.ForeColor = Color.Red;
+                }
+                else 
+                {
+                    labelNovoEstoqueQtd.Text = resultado.ToString();
+                    labelNovoEstoqueQtd.ForeColor = Color.Black;
                 }
             }
         }

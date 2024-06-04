@@ -1,11 +1,10 @@
-﻿using BibliotecaEstoque;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BibliotecaEstoque;
 using BibliotecaEstoque.Database;
+using BibliotecaEstoque.Model;
 
 namespace Controle_de_Estoque.Utils
 {
