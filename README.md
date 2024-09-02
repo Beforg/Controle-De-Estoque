@@ -1,14 +1,15 @@
 # Controle de Estoque
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
-Aplicativo Windows Forms feito em C# no Visual Studio 2022, utilizando o SQL Server 2019 LocalDB.
+[![Generic badge](https://img.shields.io/badge/Versão-1.0.1-<COLOR>.svg)](https://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 
-[Link para download](https://drive.google.com/file/d/1_ouAH-1JQ1wa3WEeztHgvYyv6HkxjYFn/view?usp=drive_link)
+Projeto em C#, utilizando o SQL Server 2019 LocalDB.
 
 ![](https://github.com/Beforg/assets/blob/main/cde-csharp/inicial.png?raw=true)
 
 ## Sobre:
 
-Projeto real desenvolvido para atender o controle de estoque dos itens do Almoxarifado, tendo a aplicação funções para Cadastrar, Editar, Remover, Buscar, dar Entrada e Saída de produtos.
+Projeto desenvolvido para atender o controle de estoque dos itens do Almoxarifado de uma empresa de Contruções, tendo a aplicação funções para Cadastrar, Editar, Remover, Buscar, dar Entrada e Saída de produtos.
 
 ### Estrutura do Projeto:
 
