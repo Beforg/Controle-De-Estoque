@@ -18,9 +18,9 @@ namespace BibliotecaEstoque.Database
             try 
             {
 
-                //connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename{databasePath};Integrated Security=True";
-                string databasePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "database.mdf");
-                connection = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={databasePath};Integrated Security=True";
+                connection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\Database\database.mdf;Integrated Security=True";
+                // string databasePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "database.mdf");
+                //connection = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={databasePath};Integrated Security=True";
 
                 sqlConnection = new SqlConnection(connection);
                 sqlConnection.Open();

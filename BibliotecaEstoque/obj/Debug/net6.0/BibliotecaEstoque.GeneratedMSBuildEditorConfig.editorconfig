@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BibliotecaEstoque
-build_property.ProjectDir = C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\
+build_property.ProjectDir = C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

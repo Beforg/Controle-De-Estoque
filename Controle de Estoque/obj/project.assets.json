@@ -5291,19 +5291,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno Forgiarini\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\Controle de Estoque.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\Controle de Estoque.csproj",
       "projectName": "Controle de Estoque",
-      "projectPath": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\Controle de Estoque.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\obj\\",
+      "projectPath": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\Controle de Estoque.csproj",
+      "packagesPath": "C:\\Users\\Bruno Forgiarini\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno Forgiarini\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5317,8 +5317,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\BibliotecaEstoque.csproj": {
-              "projectPath": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\BibliotecaEstoque.csproj"
+            "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\BibliotecaEstoque.csproj": {
+              "projectPath": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\BibliotecaEstoque.csproj"
             }
           }
         }

@@ -13,3 +13,18 @@ C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEst
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\Database\database.mdf
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\Database\database_log.ldf
 C:\Users\Pichau\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.sourcelink.json
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\Database\database.mdf
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\Database\database_log.ldf
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\BibliotecaEstoque.deps.json
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\BibliotecaEstoque.dll
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\bin\Debug\net6.0\BibliotecaEstoque.pdb
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.csproj.AssemblyReference.cache
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.AssemblyInfoInputs.cache
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.AssemblyInfo.cs
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.sourcelink.json
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.dll
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\refint\BibliotecaEstoque.dll
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\BibliotecaEstoque.pdb
+C:\Users\Bruno Forgiarini\Documents\code\C#\WindowsForms\Controle de Estoque\BibliotecaEstoque\obj\Debug\net6.0\ref\BibliotecaEstoque.dll

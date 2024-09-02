@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\",
+  "WorkspaceRootPath": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\controle de estoque\\view\\formrelatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|solutionrelative:controle de estoque\\view\\formrelatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1928D67E-555D-484E-A070-72186514A613}|BibliotecaEstoque\\BibliotecaEstoque.csproj|c:\\users\\pichau\\documents\\code\\c#\\windowsforms\\controle de estoque\\bibliotecaestoque\\database\\localdbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1928D67E-555D-484E-A070-72186514A613}|BibliotecaEstoque\\BibliotecaEstoque.csproj|solutionrelative:bibliotecaestoque\\database\\localdbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|c:\\users\\pichau\\documents\\code\\c#\\windowsforms\\controle de estoque\\controle de estoque\\view\\formcontroledeestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|solutionrelative:controle de estoque\\view\\formcontroledeestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\controle de estoque\\view\\formcontroledeestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|solutionrelative:controle de estoque\\view\\formcontroledeestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|c:\\users\\pichau\\documents\\code\\c#\\windowsforms\\controle de estoque\\controle de estoque\\view\\pesquisarprodutouc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|solutionrelative:controle de estoque\\view\\pesquisarprodutouc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\controle de estoque\\view\\pesquisarprodutouc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|solutionrelative:controle de estoque\\view\\pesquisarprodutouc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|c:\\users\\pichau\\documents\\code\\c#\\windowsforms\\controle de estoque\\controle de estoque\\view\\formrelatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|solutionrelative:controle de estoque\\view\\formrelatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|c:\\users\\pichau\\documents\\code\\c#\\windowsforms\\controle de estoque\\controle de estoque\\service\\carregadadosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1390CD4C-7A18-4E61-9C17-5568702AA950}|Controle de Estoque\\Controle de Estoque.csproj|solutionrelative:controle de estoque\\service\\carregadadosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1928D67E-555D-484E-A070-72186514A613}|BibliotecaEstoque\\BibliotecaEstoque.csproj|c:\\users\\pichau\\documents\\code\\c#\\windowsforms\\controle de estoque\\bibliotecaestoque\\database\\produtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1928D67E-555D-484E-A070-72186514A613}|BibliotecaEstoque\\BibliotecaEstoque.csproj|c:\\users\\bruno forgiarini\\documents\\code\\c#\\windowsforms\\controle de estoque\\bibliotecaestoque\\database\\produtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1928D67E-555D-484E-A070-72186514A613}|BibliotecaEstoque\\BibliotecaEstoque.csproj|solutionrelative:bibliotecaestoque\\database\\produtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1928D67E-555D-484E-A070-72186514A613}|BibliotecaEstoque\\BibliotecaEstoque.csproj|c:\\users\\bruno forgiarini\\documents\\code\\c#\\windowsforms\\controle de estoque\\bibliotecaestoque\\database\\localdbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1928D67E-555D-484E-A070-72186514A613}|BibliotecaEstoque\\BibliotecaEstoque.csproj|solutionrelative:bibliotecaestoque\\database\\localdbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,117 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LocalDbClass.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\LocalDbClass.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\LocalDbClass.cs",
               "RelativeDocumentMoniker": "BibliotecaEstoque\\Database\\LocalDbClass.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\LocalDbClass.cs",
-              "RelativeToolTip": "BibliotecaEstoque\\Database\\LocalDbClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "ToolTip": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\LocalDbClass.cs*",
+              "RelativeToolTip": "BibliotecaEstoque\\Database\\LocalDbClass.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAADiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T19:34:57.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormControleDeEstoque.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormControleDeEstoque.cs",
-              "RelativeDocumentMoniker": "Controle de Estoque\\View\\FormControleDeEstoque.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormControleDeEstoque.cs [Projeto]",
-              "RelativeToolTip": "Controle de Estoque\\View\\FormControleDeEstoque.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T19:34:21.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PesquisarProdutoUC.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\PesquisarProdutoUC.cs",
-              "RelativeDocumentMoniker": "Controle de Estoque\\View\\PesquisarProdutoUC.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\PesquisarProdutoUC.cs",
-              "RelativeToolTip": "Controle de Estoque\\View\\PesquisarProdutoUC.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAtwEUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T19:25:55.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PesquisarProdutoUC.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\PesquisarProdutoUC.cs",
-              "RelativeDocumentMoniker": "Controle de Estoque\\View\\PesquisarProdutoUC.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\PesquisarProdutoUC.cs [Projeto]",
-              "RelativeToolTip": "Controle de Estoque\\View\\PesquisarProdutoUC.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T19:25:40.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormRelatorio.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormRelatorio.cs",
-              "RelativeDocumentMoniker": "Controle de Estoque\\View\\FormRelatorio.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormRelatorio.cs",
-              "RelativeToolTip": "Controle de Estoque\\View\\FormRelatorio.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T19:01:49.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormRelatorio.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormRelatorio.cs",
-              "RelativeDocumentMoniker": "Controle de Estoque\\View\\FormRelatorio.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormRelatorio.cs [Projeto]",
-              "RelativeToolTip": "Controle de Estoque\\View\\FormRelatorio.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T18:59:18.314Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormControleDeEstoque.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormControleDeEstoque.cs",
-              "RelativeDocumentMoniker": "Controle de Estoque\\View\\FormControleDeEstoque.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\View\\FormControleDeEstoque.cs",
-              "RelativeToolTip": "Controle de Estoque\\View\\FormControleDeEstoque.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T19:34:25.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CarregaDadosService.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\Service\\CarregaDadosService.cs",
-              "RelativeDocumentMoniker": "Controle de Estoque\\Service\\CarregaDadosService.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\Controle de Estoque\\Service\\CarregaDadosService.cs",
-              "RelativeToolTip": "Controle de Estoque\\Service\\CarregaDadosService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T18:54:27.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ProdutoDB.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\ProdutoDB.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\ProdutoDB.cs",
               "RelativeDocumentMoniker": "BibliotecaEstoque\\Database\\ProdutoDB.cs",
-              "ToolTip": "C:\\Users\\Pichau\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\ProdutoDB.cs",
+              "ToolTip": "C:\\Users\\Bruno Forgiarini\\Documents\\code\\C#\\WindowsForms\\Controle de Estoque\\BibliotecaEstoque\\Database\\ProdutoDB.cs",
               "RelativeToolTip": "BibliotecaEstoque\\Database\\ProdutoDB.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAAwMwAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T17:49:12.779Z"
+              "WhenOpened": "2024-06-04T17:49:12.779Z",
+              "EditorCaption": ""
             }
           ]
         }
